@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T16:58:50.593158+00:00):
+Pipeline status (generated 2026-10-18T17:11:13.026739+00:00):
 
 - **identity**: done
 - **research**: done
@@ -18,15 +18,15 @@ Pipeline status (generated 2026-10-18T16:58:50.593158+00:00):
 - **infra**: done
 - **review**: done
 - **fixes**: done
-- **recheck**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
-- **deploy**: todo: blocked by recheck
+- **recheck**: done
+- **deploy**: todo: record verified deploy evidence
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by recheck, deploy, delivery
+- **final-handoff**: todo: blocked by deploy, delivery
 <!-- xs-status:end -->
 
 ## Current state
 
-Landing/full, server-first. October18,2026: production and both personal previews are live at revision `cef15d458dab0f6ead684b6f4f0388334537c1f8`. First-live delivery, full infrastructure and independent live review are accepted. Focused recheck, final delivery and the Derek-only menu-photo variation remain.
+Landing/full, server-first. October18,2026: production and both personal previews are live at revision `cef15d458dab0f6ead684b6f4f0388334537c1f8`. First-live delivery, full infrastructure, independent live review and focused recheck are accepted. Final verification/delivery and the Derek-only menu-photo variation remain.
 
 ## Coordinator checkpoint
 
@@ -38,7 +38,7 @@ Reconstruction and static runtime accepted. Claude returned API quota unavailabi
 
 ## Next step
 
-Fresh independent Sol6.1 High focused recheck follows accepted review (51passes, one reduced-motion tooling gap) and coordinator's actual Chrome reduced-motion verification. No application defect or product change was needed. A transient shared-host timeout recovered without Avenue mutation; all three live checks passed again at the same revision. The final Sol task follows accepted recheck and owns final verification/media/Slack handoff. Website URLs now uses the existing formatted Slack message with company name and three clickable URL rows only; revisions/status remain private. All three Avenue URLs are already present. Read back before reuse; any whole-message edit requires the batch dispatcher's explicit serialized writer grant. First live is only a milestone.
+Independent Sol6.1 High recheck passed22/22actual live cases: reduced motion, pointer/keyboard navigation, disclosures, ordinary font/load category jumps and all3revision endpoints. Coordinator inspected and accepted the evidence. No application defect or product change was needed. The final Sol task now owns verification, media delivery and Slack handoff; coordinator pauses those record writes until it returns. Website URLs uses the existing formatted Slack message with company name and three clickable URL rows only; revisions/status remain private. All three Avenue URLs are already present. Read back before reuse; any whole-message edit requires the batch dispatcher's explicit serialized writer grant. Normal delivery must finish before the last Derek-only menu-photo variation.
 
 ## Blockers / waiting on
 
