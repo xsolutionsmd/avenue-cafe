@@ -4,7 +4,20 @@
 
 Primary reference: [Café Cecilia](https://www.cafececilia.com/index), selected after Avenue's facts, media and customer journeys. Observed in the browser at 1440×900 and 390×844: initial brand landing, Menus selection and Info presentation. The selection captures are retained separately as `selection-home-desktop.png`, `selection-menu-desktop.png`, `selection-info-desktop.png` and `selection-home-mobile.png`; reconstruction captures use page/viewport names.
 
-These are browser observations, **not successful REA evidence**. The task-owned compatibility browser launch was rejected before execution. No CDP endpoint, REA target ID, passive capture or REA evidence ID exists for this run. Required REA observation remains an unresolved stage dependency; do not infer it from installed tooling or browser labeling.
+**October 18, 2026 reconciliation:** Derek's correction makes REA preferred tooling, not an acceptance gate. The task-owned compatibility browser launch was rejected before execution; no CDP endpoint, REA target ID, passive capture or REA evidence ID exists. The actual method was ordinary T3 rendered-browser inspection, DOM/computed-style/layout measurements, public-asset inspection and exercised browser interactions. These observations are sufficient for this scoped reconstruction handoff; they are never labeled successful REA evidence. No helper retry, repair wait or additional permission is required. Coordinator stage acceptance remains separate.
+
+The populated app remains at `374472fb425ea09ff5d5f4b3c5c5c99b5de0b2a8`. This reconciliation changes documentation only. Existing checks/captures are reused because the app source is unchanged; no new browser session or build was needed. Private run reports preserve the original tooling error and superseded gate interpretation as dated history.
+
+### Reused evidence inventory
+
+Capture identifiers resolve in the coordinator-held analysis bundle; raw browser evidence and provenance originals remain outside this public repository.
+
+| Evidence | Retained identifiers and coverage |
+|---|---|
+| Selected reference | `selection-home-desktop.png`, `selection-menu-desktop.png`, `selection-info-desktop.png`, `selection-home-mobile.png`; additional `reconstruct-reference-home-{desktop,mobile}.png` and `reconstruct-reference-menu-desktop.png`. Home/Menus/Info observations informed the blueprint; separately retained mobile reference captures show Home, not every interaction state. |
+| Populated pages | `home-{desktop,mobile}.png`, `menu-{desktop,mobile}.png`, `visit-{desktop,mobile}.png` at 1440×900 and 390×844; `home-desktop-lower.png`, `menu-mobile-lower.png`, `visit-mobile-entrance.png` cover lower content and actual crops. |
+| Behavior and containment | `reconstruction-evidence.json` records navigation, disclosures, category jumps, visible keyboard focus, history/direct reload, motion samples and exact 85-key reconciliation. `menu-320-enlarged.png` accompanies final all-page 320px/200%-root-text measurements: scrollWidth=320, no overflow or menu-paper containment issues. |
+| Existing validation | Prior `npm run check` passed production build/static/menu checks; loaded Home assets returned 200. Astra independently built the unchanged app and recorded 17 HTTP/resource assertions plus container browser checks in `runtime-prep.md`/`runtime-prep.json`. These receipts support reuse, not a new run or stage acceptance by this author. |
 
 ## Observed reference system
 
@@ -51,8 +64,14 @@ Original implementation lives in `app/`; `scripts/render-pages.mjs` creates the 
 
 This static flow needs no custom service. Existing `/health`, uncached `/version.json`, Nginx routing/404 behavior, noindex response headers and container checks remain the backend owner's responsibility under [API contract](../docs/API.md). No runtime or Dockerfile changes were made. All pages already contain noindex/nofollow metadata. No canonical domain is invented before publication.
 
+Observed customer inputs are links, category anchors, the mobile navigation toggle and two native disclosures. Their outputs are navigation, scrolling or local open/closed UI state; no customer record is created and no server mutation is required. Telephone handling belongs to the device and directions to Google Maps; no call was placed. Forms, field validation, submission/loading/empty/success states and custom integration APIs are not applicable to the selected static scope. Unobserved reference service behavior remains unknown rather than an implied Avenue requirement.
+
 ## Intentional deviations and remaining unknowns
 
 Separate Home/Menu/Visit routes replace reference anchors, per the accepted brief. Useful copy/actions and real photography replace the proprietary logo/empty mobile hero. Semantic text replaces image-only menu scans for reading, search, keyboard and zoom. One coherent 628px column serves all pages instead of recreating a horizontal image-menu carousel. No incidental reservation/shop functions or unsupported Avenue claims are added. Final Derek-only menu photography is deferred to its separate later variation.
 
-Browser rendering and interaction checks can establish the implementation behavior, but cannot close the missing REA observation. Conflicting hours, current prices/stock, exact suite/floor and accessibility/parking remain unknown. Stage acceptance belongs to the coordinator.
+The existing rendered views, measurements, public assets and exercised interactions meet the documented browser/devtools fallback for this scoped reconstruction. No material reconstruction defect was identified in the retained source/captures, and no app edit is proposed. Missing passive REA capture is a tooling limitation, not a remaining work gate.
+
+Exact reference easing, hidden server rules and inaccessible transactional states remain unknown and outside this static scope. Reference mobile Menu/Info states have recorded observations but no separately retained state-specific screenshots; the mobile implementation itself has page captures and interaction/containment evidence. Native reduced-motion emulation was unavailable: the disabling CSS was inspected, but a live reduced-motion-mode pass is not claimed. The T3 Alt+Left shortcut failed; direct browser history back/forward and reload succeeded. None of these limitations is relabeled as a passed observation.
+
+Conflicting hours, current prices/stock, exact suite/floor and accessibility/parking remain unknown; unsupported facts stay omitted. Full menu evidence supersedes older KB questions about whether a readable menu exists, while current prices/availability remain unresolved. The historical media note that rendered reconciliation was pending is superseded by the 85-key result above. Hosted publication/verification and the final Derek-only photo variation remain later stages. Stage acceptance and any corrections to other records belong to the coordinator.
