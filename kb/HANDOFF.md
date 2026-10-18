@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T15:15:04.279484+00:00):
+Pipeline status (generated 2026-10-18T15:38:57.733932+00:00):
 
 - **identity**: done
 - **research**: done
@@ -40,12 +40,12 @@ Astra selected Café Cecilia after inspecting landing/menu/info and desktop/mobi
 
 ## Last session
 
-Sol delivered populated Home, Menu and Visit pages at `374472fb425ea09ff5d5f4b3c5c5c99b5de0b2a8`, the measured blueprint, authentic optimized imagery and actual browser checks. All 85 menu entries are present. Astra inspected source/captures and independently verified the built Nginx container and 17 runtime checks. Disposable test resources were removed. Sol's task ended with no pending runs; its write ownership was revoked without discarding the useful implementation. Reconstruction is not accepted because mandatory REA evidence is missing.
+Sol delivered populated Home, Menu and Visit pages at `374472fb425ea09ff5d5f4b3c5c5c99b5de0b2a8`, the measured blueprint, authentic optimized imagery and actual browser checks. All 85 menu entries are present. Astra inspected source/captures and independently verified the built Nginx container and 17 runtime checks. Disposable test resources were removed. Derek's October 18 correction explicitly permits ordinary browser/developer-tools inspection when REA fails. The earlier tooling gate is superseded. Sol is reconciling the blueprint and existing evidence under that fallback; no reconstruction restart or repeated helper launch.
 
 ## Next step
 
-Resolve the REA observation prerequisite without repeating a rejected launch or substituting browser-only evidence silently. Reuse the existing populated implementation and captures. Once the requirement is fulfilled or the user explicitly changes it, the coordinator can accept reconstruction and runtime evidence, then dispatch Claude refinement of the existing source. First publication still precedes full infrastructure and independent live review.
+Accept sufficient reconstruction evidence using the documented browser/developer-tools method, then accept Astra's unchanged-source runtime evidence and dispatch Claude refinement of the existing source. First publication still precedes full infrastructure and independent live review.
 
 ## Blockers / waiting on
 
-The dedicated REA browser helper was rejected before execution by automatic approval review. No endpoint, target ID or REA capture exists. The skill requires that observation for reconstruction acceptance. Independent source/runtime work is complete to this point; later ordered stages remain pending. Hours conflict across directories; no schedule is published. Exact floor/suite and accessible entrance guidance remain unconfirmed. No verified owner-controlled ordering service is known. Those factual gaps are handled through supported address, entrance imagery and call/directions actions.
+No current user-input blocker. REA did not run; ordinary browser evidence is the authorized fallback and is never labeled REA. Hours conflict across directories; no schedule is published. Exact floor/suite and accessible entrance guidance remain unconfirmed. No verified owner-controlled ordering service is known. Those factual gaps are handled through supported address, entrance imagery and call/directions actions.
