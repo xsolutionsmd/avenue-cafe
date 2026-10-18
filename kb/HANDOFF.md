@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T14:49:11.564024+00:00):
+Pipeline status (generated 2026-10-18T15:15:04.279484+00:00):
 
 - **identity**: done
 - **research**: done
@@ -9,7 +9,7 @@ Pipeline status (generated 2026-10-18T14:49:11.564024+00:00):
 - **spec**: done
 - **template**: done
 - **content**: done
-- **reconstruct**: todo: record coordinator-accepted reconstruct evidence
+- **reconstruct**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
 - **backend**: todo: blocked by reconstruct
 - **refine**: todo: blocked by backend
 - **build**: todo: blocked by refine
@@ -40,12 +40,12 @@ Astra selected Café Cecilia after inspecting landing/menu/info and desktop/mobi
 
 ## Last session
 
-Completed source and image identity checks, rejecting unrelated Avenue Kitchen & Bar menus. July 2026 wall-board photographs support the menu; prices are omitted. Hash and menu-mapping checks passed. Source coverage and provenance are retained in the private asset record; public facts are in this KB. The asset specialist has completed and relinquished ownership.
+Sol delivered populated Home, Menu and Visit pages at `374472fb425ea09ff5d5f4b3c5c5c99b5de0b2a8`, the measured blueprint, authentic optimized imagery and actual browser checks. All 85 menu entries are present. Astra inspected source/captures and independently verified the built Nginx container and 17 runtime checks. Disposable test resources were removed. Sol's task ended with no pending runs; its write ownership was revoked without discarding the useful implementation. Reconstruction is not accepted because mandatory REA evidence is missing.
 
 ## Next step
 
-Sol High reconstructs and populates the selected reference with REA and browser evidence. Deliver runnable source, the template blueprint and desktop/mobile checks to the coordinator. Astra then verifies the static runtime and destinations before Claude refines that existing source. First publication precedes full infrastructure and independent live review.
+Resolve the REA observation prerequisite without repeating a rejected launch or substituting browser-only evidence silently. Reuse the existing populated implementation and captures. Once the requirement is fulfilled or the user explicitly changes it, the coordinator can accept reconstruction and runtime evidence, then dispatch Claude refinement of the existing source. First publication still precedes full infrastructure and independent live review.
 
 ## Blockers / waiting on
 
-No current input blocker. Hours conflict across directories; no schedule is published. Exact floor/suite and accessible entrance guidance remain unconfirmed. No verified owner-controlled ordering service is known. The site uses supported street address, entrance imagery and call/directions actions without invented operating details.
+The dedicated REA browser helper was rejected before execution by automatic approval review. No endpoint, target ID or REA capture exists. The skill requires that observation for reconstruction acceptance. Independent source/runtime work is complete to this point; later ordered stages remain pending. Hours conflict across directories; no schedule is published. Exact floor/suite and accessible entrance guidance remain unconfirmed. No verified owner-controlled ordering service is known. Those factual gaps are handled through supported address, entrance imagery and call/directions actions.
