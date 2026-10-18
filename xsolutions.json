@@ -132,7 +132,26 @@
       "status": "pending"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T16:02:53.856911+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "refine": "2026-10-18T15:59:40.747425+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "build-r1.md, runtime-final.json: npm/app.py checks, actual ARM64 read-only runtime17 assertions and desktop/mobile sanity checks passed."
+      ],
+      "revision": "07c928acf7cc4b41ab6db1eb8bc5ec35dcb3cb19",
+      "inputs_sha256": {
+        "kb/features.md": "496710a70f153ed84f2f181fb09ccfbdab4341e7e32c91e97e4f06b9f7e16f45",
+        "kb/design-brief.md": "75018f6035bde74eac79d8d911c0d1a766bdc207fbe3aba9aa03371ff5d349fb"
+      },
+      "content_recorded": "2026-10-18T15:49:31.978831+00:00"
     },
     "first-publish": {
       "status": "pending"
@@ -162,5 +181,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T14:49:11.119653+00:00"
+  "updated": "2026-10-18T16:02:53.959272+00:00"
 }

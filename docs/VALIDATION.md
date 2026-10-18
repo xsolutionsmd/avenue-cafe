@@ -1,11 +1,13 @@
 # Validation
 
-October 18, 2026: populated Home, Menu and Visit source at `374472fb425ea09ff5d5f4b3c5c5c99b5de0b2a8`. This is local preparation, not a released or formally accepted build.
+October18,2026: first production release `07c928acf7cc4b41ab6db1eb8bc5ec35dcb3cb19` at https://avenuecafe.xsolutionsmd.com.
 
-- Sol's `npm run check` passed with all 85 sourced menu keys exactly once. Actual desktop/mobile checks covered 1440×900, 390×844 and 320px with enlarged text, navigation, category jumps, disclosures, keyboard and history. Captures and limitations accompany the blueprint.
-- Astra independently built the production Nginx image for linux/amd64. The actual planned read-only Compose runtime passed 17 HTTP/resource checks: all authored routes, images/fonts/CSS/JS, health, exact revision, no-store version responses, noindex headers, missing routes/assets and private file paths returning 404. User 101:101, no-new-privileges, disposable tmpfs and healthy state were verified. No persistent mounts.
-- The built container was inspected in the browser at desktop and 390px, including opening mobile navigation, following Menu, direct Visit loading, 85 visible menu records, image loading and no horizontal overflow. The phone href was inspected; no call was placed.
-- No ARM64 release, public deployment, formal independent live review or Slack delivery has occurred. REA failed before browser launch. Derek's October 18 correction permits the documented ordinary browser/developer-tools fallback, so the tooling failure is no longer a gate. Reconstruction evidence is being reconciled for acceptance; browser evidence is not labeled REA evidence.
-- The disposable local container, image, network and dedicated builder/cache were removed by exact identity. Source, optimized media, provenance and relevant captures are retained for completing this build.
+- Sol populated all85sourced menu entries and separate Home/Menu/Visit, preserving the inspected reference with actual cafe imagery. Ordinary browser/devtools fallback accepted; REA did not run.
+- Astra quota fallback refinement preserves reference/content and adds clear mobile open/close feedback plus page metadata. Npm check and lifecycle container check passed.
+- Actual linux/arm64 release tested in read-only UID101 runtime with no-new-privileges and disposable tmpfs:17route/resource/noindex/cache/version/private404 checks passed. The same immutable artifact is healthy on Oracle.
+- Actual desktop1440x900/mobile390x844 views and mobile navigation, Escape focus, keyboard reopening, category jumps and disclosures passed. At320px/200%text, controls stay inside their cards and no horizontal overflow occurs. Real images load; full menu remains text-only.
+- First public HTTPS/version and all3direct routes checked; phone/Maps destinations verified without a real call/transaction. Shared gateway changed under existing lock with fresh read/validation/CAS, preserving siblings.
+- Full infrastructure, independent live review, final environment verification and media handoff remain pending. This is first-live readiness, not final quality acceptance.
+- Disposable candidate containers/networks/synthetic volumes, local runtime images and dedicated builder/cache removed. Active production image/config retained; source and task evidence remain needed for completion.
 
-Factual uncertainties remain in `kb/open-questions.md`; they have not been filled with invented operating details.
+Factual uncertainties remain in kb/open-questions.md and are not filled with invented details.
