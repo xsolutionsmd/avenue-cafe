@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "avenue-cafe",
+  "project": "avenue-cafe",
+  "source": "https://github.com/xsolutionsmd/avenue-cafe",
+  "repositories": {
+    "image": "ghcr.io/xsolutionsmd/avenue-cafe"
+  },
+  "state_dir": "/var/lib/avenue-cafe-deploy",
+  "current": "current.json",
+  "recovery_files": [
+    "previous.env",
+    "previous-current.json"
+  ],
+  "pending_globs": [
+    "transaction",
+    "transaction.json",
+    "transaction.json.new",
+    "check.*",
+    "check-*"
+  ],
+  "keep_previous": 2,
+  "minimum_age_hours": 24
+}

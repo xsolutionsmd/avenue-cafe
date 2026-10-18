@@ -1,0 +1,11 @@
+[Unit]
+Description=Check avenue-cafe approved releases
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=avenue-cafe-update.service
+
+[Install]
+WantedBy=timers.target

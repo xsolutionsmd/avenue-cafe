@@ -1,0 +1,3 @@
+d-avenuecafe.xsolutionsmd.com {
+    reverse_proxy avenue-cafe-derek-dev:8080
+}
