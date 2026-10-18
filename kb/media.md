@@ -58,7 +58,7 @@ Prefer the business's own originals and the largest, best renditions.
 
 The July 2026 wall-mounted menu photograph by Paul H on the [exact Google Maps listing](https://www.google.com/maps?cid=12875415791561100458) is corroborated by the [same board posted to Yelp July 2, 2026](https://m.yelp.com/biz_photos/avenue-cafe-towson?select=KCfllgw47bXjWLKb8BYwLA). The private index transcribes every readable dish/category and modifier, with ambiguous fragments flagged. All prices are omitted. Current availability is not independently confirmed.
 
-The private `assets/menu-items.json` is the source of the derived `menu-items.csv`: 85 sourced entries, 3 photo matches (2 confirmed and 1 likely), and 82 explicit photo gaps. The 3 matches use 2 distinct food scenes because the chicken photograph also shows French fries. Cookies are separately supported by the local directory. Rendered-menu reconciliation remains pending implementation.
+The private `assets/menu-items.json` is the source of the derived `menu-items.csv`: 85 sourced entries, 3 photo matches (2 confirmed and 1 likely), and 82 explicit photo gaps. The 3 matches use 2 distinct food scenes because the chicken photograph also shows French fries. Cookies are separately supported by the local directory. All 85 source keys reconcile exactly once with the rendered text-only menu at application revision `374472fb425ea09ff5d5f4b3c5c5c99b5de0b2a8`.
 
 Ten verified originals include 8 authentic cafe files and 2 rejected other-business menu images. Usable photography is three distinct scenes: entrance, BLT, and chicken sandwich with fries. Four authentic menu-board images are transcription evidence; the small directory BLT is a duplicate rendition of the larger Maps image.
 
