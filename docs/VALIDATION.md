@@ -7,7 +7,15 @@ October18,2026: first production release `07c928acf7cc4b41ab6db1eb8bc5ec35dcb3cb
 - Actual linux/arm64 release tested in read-only UID101 runtime with no-new-privileges and disposable tmpfs:17route/resource/noindex/cache/version/private404 checks passed. The same immutable artifact is healthy on Oracle.
 - Actual desktop1440x900/mobile390x844 views and mobile navigation, Escape focus, keyboard reopening, category jumps and disclosures passed. At320px/200%text, controls stay inside their cards and no horizontal overflow occurs. Real images load; full menu remains text-only.
 - First public HTTPS/version and all3direct routes checked; phone/Maps destinations verified without a real call/transaction. Shared gateway changed under existing lock with fresh read/validation/CAS, preserving siblings.
-- Full infrastructure, independent live review, final environment verification and media handoff remain pending. This is first-live readiness, not final quality acceptance.
+- At first publication, infrastructure, independent live review and final handoff were still pending. They subsequently completed on October 18; the normal focused recheck passed 22/22 cases. These dated results do not establish later availability.
 - Disposable candidate containers/networks/synthetic volumes, local runtime images and dedicated builder/cache removed. Active production image/config retained; source and task evidence remain needed for completion.
 
 Factual uncertainties remain in kb/open-questions.md and are not filled with invented details.
+
+October 18 follow-up: directory redirect correction.
+
+- Independent review found `/menu` without a trailing slash redirecting to the internal HTTP port 8080. The same defect affected all three environments; canonical `/menu/` worked. It was unrelated to the Derek-only menu photos.
+- `absolute_redirect off` keeps automatic directory redirects relative, retaining the browser's public scheme and host. See [Nginx's directive reference](https://nginx.org/en/docs/http/ngx_http_core_module.html#absolute_redirect).
+- The regression check reproduced the old failure in the actual unprivileged Nginx 1.27 runtime. The corrected runtime passed 25 cases: GET/HEAD for Menu/Visit with and without encoded query parameters under all three public Host headers, successful relative targets, and a real 404 for an unknown path. Nginx configuration validation also passed.
+- The same route check now runs in the existing container lifecycle check. Source and local evidence precede publication; independent live confirmation is still required for this correction.
+- No page content or photo associations changed. Main and Abdul retain text-only menus; Derek's separate photo variation must remain on his branch.

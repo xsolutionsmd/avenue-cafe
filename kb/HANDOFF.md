@@ -48,4 +48,12 @@ The media library has 10 image files: 8 authentic cafe files and 2 excluded wron
 
 ## Blockers / waiting on
 
+Follow-up runtime correction: independent review found that `/menu` without a
+trailing slash redirected to internal HTTP port 8080 on all three environments.
+Canonical links worked. Nginx now emits relative directory redirects; 25 actual
+local runtime regression cases pass, and the existing container check includes
+them. Publication and independent live confirmation remain pending. This runtime
+change does not alter the accepted design or content. Derek's separately reviewed
+two-photo menu remains branch-only; preserve main/Abdul's text-only menus.
+
 No user-input blocker. Hours/prices conflict or are unreadable; no invented schedule/prices. Exact floor/suite and accessible entrance remain unconfirmed. Supported address/entrance photos and call/directions actions cover those gaps. No verified owner-controlled ordering service. Assets/provenance authorized by Derek's standing confirmation.
