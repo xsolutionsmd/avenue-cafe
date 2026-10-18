@@ -12,6 +12,7 @@ import sys
 import urllib.error
 import urllib.request
 import uuid
+from check_routes import check_routes
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / "app-workflow.json").read_text(encoding="utf-8"))
@@ -172,7 +173,8 @@ def candidate(args, image, expected, e2e=False):
     env["APP_PORT"] = "0"
     try:
         compose("installed", "up", "--detach", "--no-build", "--wait", "--wait-timeout", "90", env=env, project=project)
-        verify_http("installed", env, expected, project)
+        base = verify_http("installed", env, expected, project)
+        check_routes(base)
         if e2e:
             run_e2e(env, project, expected)
     finally:
