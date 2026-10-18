@@ -26,50 +26,58 @@ Pipeline status (generated 2026-10-18T17:34:56.279266+00:00):
 
 ## Current state
 
-Landing/full, server-first. October 18, 2026: production and both personal previews serve the accepted application reviewed at `cef15d458dab0f6ead684b6f4f0388334537c1f8`. Infrastructure, independent live review and focused recheck are accepted. Normal media and final URL delivery are complete. This publication updates handoff records only; each final branch/live revision and application/runtime/configuration parity are recorded separately after publication. Coordinator acceptance of the normal handoff precedes the remaining Derek-only menu-photo variation.
+October 18, 2026. The normal full endpoint and its original final delivery are
+complete. Production and Abdul serve the accepted text-only menu at `d472f827ff25db2755538ae7fba14511e3ad74c4`.
+Derek's preview has an intentional menu-photo variation. The expanded source adds
+photos to 10 of 85 entries, using nine original files from eight food scenes;
+three matches are confirmed and seven likely. 75 entries remain without supported
+photos. See [photo provenance and branch boundary](menu-photo-variation.md).
 
-## Coordinator checkpoint
+The expanded source passed local desktop/mobile and narrow enlarged-text checks.
+Managed Derek-only publication, independent focused photo review and updated
+media/Slack handoff remain pending at this source checkpoint. Main and Abdul's
+accepted design and photo treatment are unchanged. Do not merge this variation
+into them during later syncs.
 
-Astra selected Cafe Cecilia after actual desktop/mobile inspection. Sol reconstructed separate Home/Menu/Visit with85sourced menu entries and real BLT/entrance images. Ordinary browser/devtools fallback is accepted under Derek's October18 correction; never label it REA. Main and Abdul keep the reference's text-only menu; a reviewed Derek-only photo variation follows normal delivery.
+## Accepted runtime correction
 
-## Last session
+The no-slash Menu/Visit redirect defect is fixed on all three environments.
+Production/Abdul revision is above; Derek's preceding runtime revision is
+`9c3ce9a6aed20bf03bf1f631e33f54ac0dedfb5d`. All release/CI workflows passed.
+Independent Sol review passed 56/56 scoped HTTP/browser cases with no findings,
+including desktop/mobile navigation, refresh, Back and encoded queries.
+The earlier shared-host incident remains dated evidence, not a diagnosed source
+fault or a guarantee of sustained availability. No shared recovery mutation occurred.
 
-Reconstruction and static runtime accepted. Claude returned API quota unavailability before edits and was stopped; Astra xhigh completed the same focused refinement under the recorded fallback. Mobile open/close feedback and page metadata improved while preserving reference fidelity. Npm and lifecycle container checks, ARM64 read-only runtime17checks, desktop/mobile interactions, HTTPS/direct routes and actual live imagery passed. The first production route was added with shared lock, fresh read/validation/CAS; sibling routes and services were preserved. Source/public KB remain separate from private research and delivery receipts.
+## Original workflow history
 
-## Derek-only variation
+Astra selected Cafe Cecilia after rendered desktop/mobile inspection. Sol populated
+separate Home/Menu/Visit with all 85 sourced entries and authentic BLT/entrance
+photos. Ordinary browser/devtools fallback was accepted; REA did not run. Claude's
+quota failure occurred before edits; the stopped task was replaced by Astra xhigh
+for focused refinement. First production publication preceded infrastructure and
+formal independent review. Normal recheck passed 22/22 live cases, including actual
+reduced-motion observation. Repository, protections, independent environments and
+normal Slack delivery were verified. These are historical acceptance records.
 
-The normal full workflow and final delivery were accepted on October 18, 2026.
-This `derek-dev` branch now adds the two confirmed menu-photo associations, B.L.T.
-and French Fries, retaining the full 85-entry menu and accepted layout. See
-[photo provenance and branch boundary](menu-photo-variation.md). The fries photo
-shows an accompanying sandwich without assigning its uncertain exact menu item.
-Production and Abdul retain their reviewed text-only menus. Do not merge this
-intentional variation into those branches during future syncs.
+The new research revisited all ten prior originals and added seven authentic food
+images. Maps' exposed gallery and all Yelp images were inspected; Restaurantji
+exposed 26 of its advertised 27 images, with no additional unique Towson food.
+Other source-family discovery limits remain explicit. The current 17-file library
+contains 15 authentic cafe files and two wrong-business exclusion references.
+The old 10-file package is historical; the expanded package awaits final delivery.
 
-Npm build/contract checks and local desktop1440, phone390 and320 with doubled root
-text passed. The two images remain inside their containing menu paper; no horizontal
-overflow. Publication and one focused independent live review are next.
+## Remaining uncertainty
 
-## Normal handoff history
+Hours and prices conflict or are unreadable; none are invented. Exact floor/suite
+and accessible entrance remain unconfirmed. No owner-controlled ordering system
+was verified. Public phone/address, authentic entrance imagery and directions are
+provided. No customer transaction, business outreach or client DNS change occurred.
+Derek's standing asset permission covers this work; no further permission is needed.
 
-Normal handoff was accepted before the scoped Derek-only variation above began.
-At that handoff all three menus were text-only, with real BLT and entrance photos
-on the surrounding pages. The recorded review and delivery below describe that baseline.
+## Next action
 
-Independent recheck passed 22/22 actual live cases, including directly observed reduced motion, keyboard/pointer navigation, disclosures and category jumps; findings are empty. Final checks confirm Home/Menu/Visit, phone and Maps identity, real media and the text-only menu. A brief Derek preview 502 recovered without mutation; successful fresh checks and the original failure remain in private evidence. Final verification runs again after the last documentation push.
-
-The unchanged media ZIP was delivered once to Abdul with final production/Derek/Abdul links, repository link, review result and remaining factual/photo gaps, in the original first-live thread. Persisted message and file-card readback, exact package hash and the structured final URL receipt are kept in the private delivery records. The existing Website URLs formatted message was reloaded and its matching Avenue links reused without editing other companies. Keep internal delivery identifiers and cross-client directories out of this public repository.
-
-The media library has 10 image files: 8 authentic cafe files and 2 excluded wrong-business references marked no-reuse. Two food scenes map to 3 menu entries (2 confirmed, 1 likely), with 82 explicit photo gaps. BLT identity and the displayed full 4:3 crop are confirmed; entrance door and cafe lettering remain visible. The chicken/fries scene supports likely grilled chicken and confirmed fries, never an unsupported cheesesteak label. Preserve provenance and historical-photo limits.
-
-## Blockers / waiting on
-
-Follow-up runtime correction: independent review found that `/menu` without a
-trailing slash redirected to internal HTTP port 8080 on all three environments.
-Canonical links worked. Nginx now emits relative directory redirects; 25 actual
-local runtime regression cases pass, and the existing container check includes
-them. Publication and independent live confirmation remain pending. This runtime
-change does not alter the accepted design or content. Derek's separately reviewed
-two-photo menu remains branch-only; preserve main/Abdul's text-only menus.
-
-No user-input blocker. Hours/prices conflict or are unreadable; no invented schedule/prices. Exact floor/suite and accessible entrance remain unconfirmed. Supported address/entrance photos and call/directions actions cover those gaps. No verified owner-controlled ordering service. Assets/provenance authorized by Derek's standing confirmation.
+Publish and independently review the expanded Derek menu, correct any supported
+finding, verify its live revision, deliver the updated library and update the
+existing final Slack message. Keep current URL-directory entries; all three URLs
+are unchanged. Record final evidence privately and retain only needed artifacts.

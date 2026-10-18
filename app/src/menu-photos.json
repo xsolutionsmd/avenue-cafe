@@ -1,0 +1,76 @@
+{
+  "blt": {
+    "src": "/images/avenue-blt-640.webp",
+    "srcset": "/images/avenue-blt-640.webp 640w, /images/avenue-blt-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "Both halves of a BLT on toasted bread, with a pickle spear."
+  },
+  "french-fries": {
+    "src": "/images/avenue-fries-640.webp",
+    "srcset": "/images/avenue-fries-640.webp 640w, /images/avenue-fries-1280.webp 1280w",
+    "width": 1280,
+    "height": 1280,
+    "alt": "Golden French fries on a plate."
+  },
+  "grilled-chicken-sandwich": {
+    "src": "/images/avenue-chicken-roll-640.webp",
+    "srcset": "/images/avenue-chicken-roll-640.webp 640w, /images/avenue-chicken-roll-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "Browned chicken pieces with lettuce and tomato in a roll.",
+    "caption": "Shown on a roll."
+  },
+  "chicken-cheese-steak-sub": {
+    "src": "/images/avenue-chicken-roll-640.webp",
+    "srcset": "/images/avenue-chicken-roll-640.webp 640w, /images/avenue-chicken-roll-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "A chicken sub with lettuce and tomato."
+  },
+  "fish-filet": {
+    "src": "/images/avenue-fish-filet-640.webp",
+    "srcset": "/images/avenue-fish-filet-640.webp 640w, /images/avenue-fish-filet-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "A breaded filet sandwich with lettuce and tomato in a round roll."
+  },
+  "chicken-caesar-wrap": {
+    "src": "/images/avenue-caesar-wrap-640.webp",
+    "srcset": "/images/avenue-caesar-wrap-640.webp 640w, /images/avenue-caesar-wrap-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "Two cut wrap halves showing chicken and romaine."
+  },
+  "grilled-reuben": {
+    "src": "/images/avenue-reuben-640.webp",
+    "srcset": "/images/avenue-reuben-640.webp 640w, /images/avenue-reuben-1000.webp 1000w",
+    "width": 1000,
+    "height": 1000,
+    "alt": "Grilled rye sandwich halves with corned beef, sauerkraut and melted cheese."
+  },
+  "meat-egg-sandwich": {
+    "src": "/images/avenue-sausage-egg-640.webp",
+    "srcset": "/images/avenue-sausage-egg-640.webp 640w, /images/avenue-sausage-egg-750.webp 750w",
+    "width": 750,
+    "height": 750,
+    "alt": "An English muffin sandwich with sausage, egg and spinach.",
+    "caption": "Shown with sausage and spinach on an English muffin."
+  },
+  "turkey-breast": {
+    "src": "/images/avenue-turkey-640.webp",
+    "srcset": "/images/avenue-turkey-640.webp 640w, /images/avenue-turkey-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "Sliced turkey with lettuce, tomato and cheese on multigrain bread.",
+    "caption": "Shown on multigrain with cheese."
+  },
+  "corned-beef": {
+    "src": "/images/avenue-corned-beef-640.webp",
+    "srcset": "/images/avenue-corned-beef-640.webp 640w, /images/avenue-corned-beef-1280.webp 1280w",
+    "width": 1280,
+    "height": 960,
+    "alt": "Corned beef and cheese between slices of toasted rye.",
+    "caption": "Shown toasted with cheese."
+  }
+}

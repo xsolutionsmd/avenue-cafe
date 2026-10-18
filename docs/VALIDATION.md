@@ -19,3 +19,10 @@ October 18 follow-up: directory redirect correction.
 - The regression check reproduced the old failure in the actual unprivileged Nginx 1.27 runtime. The corrected runtime passed 25 cases: GET/HEAD for Menu/Visit with and without encoded query parameters under all three public Host headers, successful relative targets, and a real 404 for an unknown path. Nginx configuration validation also passed.
 - The same route check now runs in the existing container lifecycle check. Source and local evidence precede publication; independent live confirmation is still required for this correction.
 - No page content or photo associations changed. Main and Abdul retain text-only menus; Derek's separate photo variation must remain on his branch.
+
+October 18 expanded Derek-only menu source:
+
+- Ten illustrated rows among 85 unique entries, using nine original photos/eight scenes. Three confirmed and seven likely associations retain provenance. Main and Abdul unchanged.
+- Deterministic WebP crops/resizes; square images preserve intrinsic ratio. Actual local T3 browser views at 1440x900, 390x844 and 320px with doubled root text: all ten images load, retain ratios and fit the menu paper; captions and disclosures fit; no horizontal overflow.
+- Explore/Escape focus, category jump, bread disclosure keyboard open/close and reload checked. Actual desktop/phone/narrow screenshots inspected. Hosted photo acceptance remains a later step.
+- Runtime correction independently passed 56/56 live cases on d472f82 production/Abdul and 9c3ce9a Derek. No remaining route finding; dated host-availability incident is not a sustained-health claim.

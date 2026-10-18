@@ -50,15 +50,13 @@ const home = `<div class="page-intro home-intro"><h1>Avenue Cafe</h1><p class="i
 <section class="editorial-copy" aria-labelledby="home-food"><h2 id="home-food">A little of what you like.</h2><p>Eggs and omelettes. Sandwiches, salads and something sweet. Find us inside 409 Washington Avenue in Towson, for breakfast or lunch.</p><p>And for a little something after? Homemade chocolate chip cookies.</p>${action('/menu/', 'Food & drink')}</section>
 <figure class="editorial-photo">${photo('avenue-entrance', 'The glass entrance to Avenue Cafe inside the building, with the door on the left and cafe lettering on the right.')}<figcaption>Look for Avenue Cafe inside the building.</figcaption></figure>
 <section class="editorial-copy visit-summary" aria-labelledby="home-visit"><h2 id="home-visit">Come find us.</h2><address>409 Washington Ave<br>Towson, MD 21204</address><div class="actions">${action('/visit/', 'Plan your visit')}${action(map, 'Open the map')}</div>${note}</section>`;
-// Intentional derek-dev variation: confirmed dish photos only. Keep off main/Abdul.
-const menuPhotos = {
-  blt: {name:'avenue-blt',alt:'Both halves of Avenue Cafe’s BLT on toasted bread, with a pickle spear.'},
-  'french-fries': {name:'avenue-fries-plate',alt:'French fries with ketchup beside a sandwich on a plate at Avenue Cafe.',caption:'Shown with a sandwich.'},
-};
+// Intentional Derek-only variation: authentic photos with supported exact or
+// contextual matches. Confidence, source evidence and variants live in the KB.
+const menuPhotos = JSON.parse(readFileSync(join(root, 'src/menu-photos.json'), 'utf8'));
 function menuPhoto(key) {
   const item = menuPhotos[key];
   if (!item) return '';
-  return `<figure class="menu-photo" data-menu-photo="${key}"><img src="/images/${item.name}-640.webp" srcset="/images/${item.name}-640.webp 640w, /images/${item.name}-1280.webp 1280w" sizes="(max-width: 700px) calc(100vw - 84px), 360px" width="1280" height="960" alt="${esc(item.alt)}" loading="lazy" decoding="async">${item.caption ? `<figcaption>${item.caption}</figcaption>` : ''}</figure>`;
+  return `<figure class="menu-photo" data-menu-photo="${key}"><img src="${item.src}" srcset="${item.srcset}" sizes="(max-width: 700px) calc(100vw - 84px), 360px" width="${item.width}" height="${item.height}" alt="${esc(item.alt)}" loading="lazy" decoding="async">${item.caption ? `<figcaption>${esc(item.caption)}</figcaption>` : ''}</figure>`;
 }
 function menuSection(category) {
   const items = menu.items.filter(item => item.category === category.source);
