@@ -43,7 +43,9 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 ## Used on the website
 
-None selected yet.
+- `0927eb2fadd1` → `app/public/images/avenue-blt-1280.webp` and `avenue-blt-640.webp`; Home editorial food photo, uncropped 4:3 with both halves and pickle retained.
+- `17b4d83ae1da` → `app/public/images/avenue-entrance-1280.webp` and `avenue-entrance-640.webp`; Home and Visit, uncropped 4:3 with door at left and lettering at right.
+- Selected files were visually checked in the rendered local reconstruction at desktop and mobile. Menu remains text-only; the menu board is a content source and the chicken/fries image is not selected for this stage.
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
@@ -62,4 +64,4 @@ Ten verified originals include 8 authentic cafe files and 2 rejected other-busin
 
 **Exclude `ec0af066c181` and `c9b1b582bd7b`:** both are the unrelated Avenue Kitchen & Bar cocktail menu, despite attachment to matching cafe listings. Their no-reuse label means wrong-business identity, not missing permission. Do not take any cafe offerings from them. The directory's Red Pepper outbound URL, Restaurantji's Bethesda Facebook link, and MenuPix's NYC link are also excluded.
 
-Keep the reference's main/Abdul menu text-only; use the entrance and BLT in appropriate surrounding sections. The later Derek-only menu variation can use accurately identified dishes. Site image copies and live rendering have not been performed by this asset task. No Slack delivery was attempted.
+Keep the reference's main/Abdul menu text-only; use the entrance and BLT in appropriate surrounding sections. The later Derek-only menu variation can use accurately identified dishes. Reconstruction selected the optimized copies listed above; hosted rendering remains a later stage. No Slack delivery was attempted.

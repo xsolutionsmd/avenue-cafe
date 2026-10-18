@@ -1,0 +1,668 @@
+{
+  "source": "S13: July 2026 wall menu photograph; S1: cookies",
+  "prices": null,
+  "items": [
+    {
+      "key": "two-eggs",
+      "name": "Two Eggs Cooked any Style",
+      "category": "Breakfast Stuff / Egg Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "two-eggs-bacon",
+      "name": "Two Eggs Cooked any Style with Bacon",
+      "category": "Breakfast Stuff / Egg Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "two-eggs-sausage",
+      "name": "Two Eggs Cooked any Style with Sausage Patties",
+      "category": "Breakfast Stuff / Egg Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "two-eggs-ham",
+      "name": "Two Eggs Cooked any Style with Grilled Honey Ham Steak",
+      "category": "Breakfast Stuff / Egg Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "pancake-platter",
+      "name": "Pancake",
+      "category": "Breakfast Stuff / Egg Platters",
+      "description": "With two eggs any style and choice of meat.",
+      "source": "S13"
+    },
+    {
+      "key": "french-toast-platter",
+      "name": "French Toast",
+      "category": "Breakfast Stuff / Egg Platters",
+      "description": "With two eggs any style and choice of meat.",
+      "source": "S13"
+    },
+    {
+      "key": "plain-omelette",
+      "name": "Plain or Egg White",
+      "category": "Breakfast Stuff / Three Egg Omelettes",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "cheese-omelette",
+      "name": "Cheese",
+      "category": "Breakfast Stuff / Three Egg Omelettes",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "ham-cheese-omelette",
+      "name": "Ham and Cheese",
+      "category": "Breakfast Stuff / Three Egg Omelettes",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "bacon-mushroom-swiss-omelette",
+      "name": "Bacon, Mushroom and Swiss Cheese",
+      "category": "Breakfast Stuff / Three Egg Omelettes",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "veggie-omelette",
+      "name": "Veggie",
+      "category": "Breakfast Stuff / Three Egg Omelettes",
+      "description": "Onion, mushrooms, peppers and tomatoes.",
+      "source": "S13"
+    },
+    {
+      "key": "western-omelette",
+      "name": "Western",
+      "category": "Breakfast Stuff / Three Egg Omelettes",
+      "description": "Ham, onions and peppers.",
+      "source": "S13"
+    },
+    {
+      "key": "plain-egg-sandwich",
+      "name": "Plain Egg",
+      "category": "Breakfast Stuff / Breakfast Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "egg-cheese-sandwich",
+      "name": "Egg and Cheese",
+      "category": "Breakfast Stuff / Breakfast Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "meat-egg-sandwich",
+      "name": "Meat and Egg",
+      "category": "Breakfast Stuff / Breakfast Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "meat-cheese-sandwich",
+      "name": "Meat and Cheese",
+      "category": "Breakfast Stuff / Breakfast Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "meat-egg-cheese-sandwich",
+      "name": "Meat, Egg and Cheese",
+      "category": "Breakfast Stuff / Breakfast Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "bagel-butter-jelly",
+      "name": "Butter or Jelly",
+      "category": "Breakfast Stuff / Bagels",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "bagel-cream-cheese",
+      "name": "Cream Cheese (Low Fat Available)",
+      "category": "Breakfast Stuff / Bagels",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "home-fries",
+      "name": "Home fries",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "ham-side",
+      "name": "Side of Ham",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "bacon-side",
+      "name": "Side of Bacon",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "sausage-side",
+      "name": "Side of Sausage",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "toast",
+      "name": "Toast",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "english-muffin",
+      "name": "English Muffin",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "extra-egg",
+      "name": "Extra Egg",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "croissant",
+      "name": "Croissant",
+      "category": "Breakfast Stuff / Sides",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "cheese-steak-sub",
+      "name": "Cheese Steak Sub",
+      "category": "Hot Stuff",
+      "description": "American cheese.",
+      "source": "S13"
+    },
+    {
+      "key": "chicken-cheese-steak-sub",
+      "name": "Chicken Cheese Steak Sub",
+      "category": "Hot Stuff",
+      "description": "Provolone.",
+      "source": "S13"
+    },
+    {
+      "key": "grilled-cheese",
+      "name": "Grilled Cheese",
+      "category": "Hot Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "grilled-cheese-bacon-tomato",
+      "name": "Grilled Cheese with Bacon and Tomato",
+      "category": "Hot Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "hot-open-turkey-platter",
+      "name": "Hot Open Turkey Platter",
+      "category": "Hot Stuff",
+      "description": "With fries and gravy.",
+      "source": "S13"
+    },
+    {
+      "key": "roast-beef-platter",
+      "name": "Roast Beef Platter",
+      "category": "Hot Stuff",
+      "description": "With fries and gravy.",
+      "source": "S13"
+    },
+    {
+      "key": "hamburger",
+      "name": "1/3 lb. Hamburger",
+      "category": "Hot Stuff",
+      "description": "Also available as a sub.",
+      "source": "S13"
+    },
+    {
+      "key": "cheeseburger",
+      "name": "1/3 lb. Cheeseburger",
+      "category": "Hot Stuff",
+      "description": "Also available as a sub.",
+      "source": "S13"
+    },
+    {
+      "key": "bacon-cheeseburger",
+      "name": "1/3 lb. Bacon Cheeseburger",
+      "category": "Hot Stuff",
+      "description": "Also available as a sub.",
+      "source": "S13"
+    },
+    {
+      "key": "kosher-hot-dog",
+      "name": "Kosher Hot Dog",
+      "category": "Hot Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "grilled-chicken-sandwich",
+      "name": "Grilled Chicken Sandwich",
+      "category": "Hot Stuff",
+      "description": "With lettuce and tomato.",
+      "source": "S13"
+    },
+    {
+      "key": "fish-filet",
+      "name": "Fish Filet with Lettuce and Tomato",
+      "category": "Hot Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "italian-cold-cut",
+      "name": "Italian Cold Cut Sub",
+      "category": "House Specialties",
+      "description": "Genoa, mortadella, cappicola, provolone, parmesan and herbs.",
+      "source": "S13"
+    },
+    {
+      "key": "american-cold-cut",
+      "name": "American Cold Cut",
+      "category": "House Specialties",
+      "description": "Ham, turkey, bologna and American cheese.",
+      "source": "S13"
+    },
+    {
+      "key": "powerhouse",
+      "name": "Powerhouse",
+      "category": "House Specialties",
+      "description": "Muenster, lettuce, tomato, cucumber, spinach and honey mustard on wheat.",
+      "source": "S13"
+    },
+    {
+      "key": "new-york-joe",
+      "name": "New York Joe",
+      "category": "House Specialties",
+      "description": "Corned beef, turkey, roast beef, Russian and cole slaw on rye.",
+      "source": "S13"
+    },
+    {
+      "key": "club-sandwich",
+      "name": "Club Sandwich",
+      "category": "House Specialties",
+      "description": "Turkey, ham or roast beef on white toast with lettuce, tomato, mayonnaise and bacon.",
+      "source": "S13"
+    },
+    {
+      "key": "tuna-melt",
+      "name": "Tuna Melt",
+      "category": "House Specialties",
+      "description": "Open face on a bagel with tomato and cheese.",
+      "source": "S13"
+    },
+    {
+      "key": "blt",
+      "name": "B.L.T.",
+      "category": "House Specialties",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "egg-salad-bacon-tomato",
+      "name": "Egg Salad, Bacon and Tomato on Rye Bread",
+      "category": "House Specialties",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "grilled-reuben",
+      "name": "Grilled Reuben",
+      "category": "House Specialties",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "grilled-turkey-reuben",
+      "name": "Grilled Turkey Reuben",
+      "category": "House Specialties",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "chicken-salad-bacon-tomato",
+      "name": "Chicken Salad, Bacon and Tomato",
+      "category": "House Specialties",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "avenue-chicken-breast-club",
+      "name": "Avenue's Chicken Breast Club",
+      "category": "House Specialties",
+      "description": "Lettuce, tomato, bacon, ranch dressing.",
+      "source": "S13"
+    },
+    {
+      "key": "chicken-caesar-wrap",
+      "name": "Chicken Caesar Wrap",
+      "category": "House Specialties",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "turkey-breast",
+      "name": "Turkey Breast",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "honey-ham",
+      "name": "Honey Ham",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "rare-roast-beef",
+      "name": "Rare Roast Beef",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "corned-beef",
+      "name": "Corned Beef",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "smoked-turkey",
+      "name": "Smoked Turkey",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "tarragon-chicken-salad",
+      "name": "Tarragon Chicken Salad",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "tuna-salad",
+      "name": "Tuna Salad",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "shrimp-salad",
+      "name": "Shrimp Salad",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "egg-salad",
+      "name": "Egg Salad",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "rachael",
+      "name": "Rachael (Corned Beef)",
+      "category": "Cold Sandwiches",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "tossed-salad",
+      "name": "Tossed Salad",
+      "category": "Salads",
+      "description": "Mixed lettuce with green pepper, tomato and cucumber.",
+      "source": "S13"
+    },
+    {
+      "key": "greek-salad",
+      "name": "Greek Salad",
+      "category": "Salads",
+      "description": "Greek olive, feta cheese, pepperoncini.",
+      "source": "S13"
+    },
+    {
+      "key": "chef-salad",
+      "name": "Chef Salad",
+      "category": "Salads",
+      "description": "Ham, turkey, Swiss cheese, American cheese and egg.",
+      "source": "S13"
+    },
+    {
+      "key": "caesar-salad",
+      "name": "Caesar Salad",
+      "category": "Salads",
+      "description": "Fresh romaine, bagel croutons, parmesan cheese and homemade Caesar dressing.",
+      "source": "S13"
+    },
+    {
+      "key": "avenue-power-salad",
+      "name": "Avenue Power Salad",
+      "category": "Salads",
+      "description": "Spinach, romaine, onion, shredded cheddar cheese, hard-boiled egg, toasted almonds and dried cranberries.",
+      "source": "S13"
+    },
+    {
+      "key": "tuna-salad-platter",
+      "name": "Tuna Salad Platter",
+      "category": "Salad Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "chicken-salad-platter",
+      "name": "Chicken Salad Platter",
+      "category": "Salad Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "egg-salad-platter",
+      "name": "Egg Salad Platter",
+      "category": "Salad Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "shrimp-salad-platter",
+      "name": "Shrimp Salad Platter",
+      "category": "Salad Platters",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "combo-salad-platter",
+      "name": "Combo Platter",
+      "category": "Salad Platters",
+      "description": "Any three salads with tomato and a cracker; shrimp salad available as an addition.",
+      "source": "S13"
+    },
+    {
+      "key": "french-fries",
+      "name": "French Fries",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "fries-gravy",
+      "name": "French Fries with  Gravy",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "onion-rings",
+      "name": "Onion Rings",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "cole-slaw",
+      "name": "Cole Slaw",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "macaroni-salad",
+      "name": "Macaroni Salad",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "mozzarella-sticks",
+      "name": "Mozzarella Sticks",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "assorted-chips",
+      "name": "Assorted Chips",
+      "category": "Extra Stuff",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "coffee",
+      "name": "Coffee",
+      "category": "Beverages",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "hot-tea",
+      "name": "Hot Tea",
+      "category": "Beverages",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "category": "Beverages",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "fountain-beverage",
+      "name": "Fountain Beverage",
+      "category": "Beverages",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "bottled-beverages",
+      "name": "Assorted bottled beverages",
+      "category": "Beverages",
+      "description": "",
+      "source": "S13"
+    },
+    {
+      "key": "chocolate-chip-cookies",
+      "name": "Homemade chocolate chip cookies",
+      "category": "Desserts",
+      "description": "",
+      "source": "S1"
+    }
+  ],
+  "category_notes": {
+    "Cold Sandwiches": {
+      "formats": [
+        "Sandwich",
+        "Sub/Wrap"
+      ],
+      "bread_choices": [
+        "White",
+        "Wheat",
+        "Rye",
+        "Kaiser Roll",
+        "Multi grain",
+        "8 inch Roll",
+        "Gluten Free"
+      ],
+      "toppings": [
+        "Lettuce",
+        "Tomato",
+        "Raw Onion",
+        "Fried Onion",
+        "Relish",
+        "Hots",
+        "Mustard",
+        "Mayo",
+        "Honey Mustard",
+        "Vinaigrette",
+        "BBQ Sauce",
+        "Russian Dressing",
+        "Dijon Mustard"
+      ],
+      "cheese": [
+        "American",
+        "Swiss",
+        "Muenster",
+        "Provolone",
+        "Cheddar"
+      ],
+      "additions": [
+        "Cheese",
+        "Bagel",
+        "Spinach",
+        "Bacon",
+        "Mushrooms",
+        "Green Peppers"
+      ]
+    },
+    "Salads": {
+      "additions": [
+        "Grilled Chicken",
+        "Tuna or Chicken Salad",
+        "Shrimp Salad",
+        "Avocado"
+      ],
+      "dressings": [
+        "Ranch",
+        "French",
+        "Thousand Island",
+        "Honey Mustard",
+        "Blue Cheese",
+        "Vinaigrette",
+        "Balsamic Vinaigrette",
+        "Light Italian",
+        "Light French",
+        "Fat Free Ranch"
+      ]
+    }
+  }
+}

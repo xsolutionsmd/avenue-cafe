@@ -49,6 +49,18 @@ function walk(dir, rel = '') {
 check(existsSync(join(dist, 'index.html')), 'dist/index.html is missing');
 if (existsSync(dist)) walk(dist);
 const links = new Set();
+for (const name of ['index.html', 'menu/index.html', 'visit/index.html']) {
+  check(existsSync(join(dist, name)), `required authored route missing: ${name}`);
+}
+const menu = JSON.parse(readFileSync(join(app, 'src/menu.json'), 'utf8'));
+const menuHtml = readFileSync(join(dist, 'menu/index.html'), 'utf8');
+const renderedKeys = [...menuHtml.matchAll(/data-menu-key="([^"]+)"/g)].map(m => m[1]);
+check(menu.items.length === 85 && renderedKeys.length === 85 && new Set(renderedKeys).size === 85,
+  'menu must preserve all 85 distinct source-index entries exactly once');
+check(menu.items.every(item => renderedKeys.includes(item.key)), 'rendered menu lost a source entry');
+check(!/<img\b/i.test(menuHtml), 'the reference menu must remain text-only');
+check(!/Board line:|Printed under|prices omitted|not individually marked|association is unclear|category notes|transcription/i.test(menuHtml),
+  'internal transcription notes leaked into customer menu copy');
 const external = new Set();
 const resource = value => {
   const url = decode(value).trim();
