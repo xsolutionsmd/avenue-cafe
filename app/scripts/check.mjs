@@ -58,7 +58,15 @@ const renderedKeys = [...menuHtml.matchAll(/data-menu-key="([^"]+)"/g)].map(m =>
 check(menu.items.length === 85 && renderedKeys.length === 85 && new Set(renderedKeys).size === 85,
   'menu must preserve all 85 distinct source-index entries exactly once');
 check(menu.items.every(item => renderedKeys.includes(item.key)), 'rendered menu lost a source entry');
-check(!/<img\b/i.test(menuHtml), 'the reference menu must remain text-only');
+// Derek-only variation: retain the complete menu and exact supported associations.
+const photoItems = {blt:'avenue-blt', 'french-fries':'avenue-fries-plate'};
+const illustrated = [...menuHtml.matchAll(/<li\b([^>]*)>([\s\S]*?)<\/li>/g)].filter(m => /<img\b/i.test(m[2]));
+check(illustrated.length === 2, 'Derek menu must contain only the two supported item photographs');
+for (const [key, name] of Object.entries(photoItems)) {
+  const entry = illustrated.find(m => attributes(`<li ${m[1]}>`)['data-menu-key'] === key);
+  check(entry && entry[2].includes(`data-menu-photo="${key}"`) && entry[2].includes(`/images/${name}-640.webp`), `wrong or missing photo association for ${key}`);
+  for (const width of [640,1280]) check(existsSync(join(dist, `images/${name}-${width}.webp`)), `missing optimized photo ${name}-${width}`);
+}
 check(!/Board line:|Printed under|prices omitted|not individually marked|association is unclear|category notes|transcription/i.test(menuHtml),
   'internal transcription notes leaked into customer menu copy');
 const external = new Set();

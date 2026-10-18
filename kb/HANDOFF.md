@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T17:21:58.925584+00:00):
+Pipeline status (generated 2026-10-18T17:34:56.279266+00:00):
 
 - **identity**: done
 - **research**: done
@@ -21,7 +21,7 @@ Pipeline status (generated 2026-10-18T17:21:58.925584+00:00):
 - **recheck**: done
 - **deploy**: done
 - **delivery**: done
-- **final-handoff**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
+- **final-handoff**: done
 <!-- xs-status:end -->
 
 ## Current state
@@ -36,9 +36,25 @@ Astra selected Cafe Cecilia after actual desktop/mobile inspection. Sol reconstr
 
 Reconstruction and static runtime accepted. Claude returned API quota unavailability before edits and was stopped; Astra xhigh completed the same focused refinement under the recorded fallback. Mobile open/close feedback and page metadata improved while preserving reference fidelity. Npm and lifecycle container checks, ARM64 read-only runtime17checks, desktop/mobile interactions, HTTPS/direct routes and actual live imagery passed. The first production route was added with shared lock, fresh read/validation/CAS; sibling routes and services were preserved. Source/public KB remain separate from private research and delivery receipts.
 
-## Next step
+## Derek-only variation
 
-Coordinator inspects the final verification/delivery receipts and accepts the normal handoff. Then implement and review the small menu-photo variation on `derek-dev` only. Do not merge it into production or Abdul's branch. All three normal menus remain text-only at this handoff; real BLT and entrance photos are used on the surrounding pages.
+The normal full workflow and final delivery were accepted on October 18, 2026.
+This `derek-dev` branch now adds the two confirmed menu-photo associations, B.L.T.
+and French Fries, retaining the full 85-entry menu and accepted layout. See
+[photo provenance and branch boundary](menu-photo-variation.md). The fries photo
+shows an accompanying sandwich without assigning its uncertain exact menu item.
+Production and Abdul retain their reviewed text-only menus. Do not merge this
+intentional variation into those branches during future syncs.
+
+Npm build/contract checks and local desktop1440, phone390 and320 with doubled root
+text passed. The two images remain inside their containing menu paper; no horizontal
+overflow. Publication and one focused independent live review are next.
+
+## Normal handoff history
+
+Normal handoff was accepted before the scoped Derek-only variation above began.
+At that handoff all three menus were text-only, with real BLT and entrance photos
+on the surrounding pages. The recorded review and delivery below describe that baseline.
 
 Independent recheck passed 22/22 actual live cases, including directly observed reduced motion, keyboard/pointer navigation, disclosures and category jumps; findings are empty. Final checks confirm Home/Menu/Visit, phone and Maps identity, real media and the text-only menu. A brief Derek preview 502 recovered without mutation; successful fresh checks and the original failure remain in private evidence. Final verification runs again after the last documentation push.
 
