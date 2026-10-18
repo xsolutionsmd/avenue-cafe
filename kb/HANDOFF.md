@@ -33,19 +33,24 @@ photos to 10 of 85 entries, using nine original files from eight food scenes;
 three matches are confirmed and seven likely. 75 entries remain without supported
 photos. See [photo provenance and branch boundary](menu-photo-variation.md).
 
-The expanded source passed local desktop/mobile and narrow enlarged-text checks.
-Managed Derek-only publication, independent focused photo review and updated
-media/Slack handoff remain pending at this source checkpoint. Main and Abdul's
-accepted design and photo treatment are unchanged. Do not merge this variation
-into them during later syncs.
+The expanded application was published and independently accepted at
+`63d042f9687766f422f30166a9c887cbf242eb0c`: 54/54 focused photo/interaction cases
+and 8/8 fresh rechecks, with no findings. Local desktop/mobile and narrow
+enlarged-text checks also passed. Final record publication may have a later SHA;
+its application, runtime and configuration must remain identical to this reviewed
+revision. Main and Abdul's accepted design and photo treatment are unchanged.
+Do not merge this variation into them during later syncs.
 
 ## Accepted runtime correction
 
 The no-slash Menu/Visit redirect defect is fixed on all three environments.
-Production/Abdul revision is above; Derek's preceding runtime revision is
-`9c3ce9a6aed20bf03bf1f631e33f54ac0dedfb5d`. All release/CI workflows passed.
-Independent Sol review passed 56/56 scoped HTTP/browser cases with no findings,
-including desktop/mobile navigation, refresh, Back and encoded queries.
+Production/Abdul revision is above; Derek's reviewed expanded application retains
+the identical runtime correction. Its preceding runtime revision was
+`9c3ce9a6aed20bf03bf1f631e33f54ac0dedfb5d`. Managed release/CI workflows passed.
+Independent Sol review passed 56/56 scoped HTTP/browser cases and a fresh 23/23
+recheck with no findings, including navigation, refresh, Back and encoded queries.
+Only the scoped runtime blobs are equal across all three; full Derek application
+parity with main/Abdul is deliberately not claimed.
 The earlier shared-host incident remains dated evidence, not a diagnosed source
 fault or a guarantee of sustained availability. No shared recovery mutation occurred.
 
@@ -65,7 +70,10 @@ images. Maps' exposed gallery and all Yelp images were inspected; Restaurantji
 exposed 26 of its advertised 27 images, with no additional unique Towson food.
 Other source-family discovery limits remain explicit. The current 17-file library
 contains 15 authentic cafe files and two wrong-business exclusion references.
-The old 10-file package is historical; the expanded package awaits final delivery.
+The old 10-file package is historical. The expanded 17-file package includes the
+current 85-row mapping, derived CSV/gallery and provenance. Final delivery and
+persisted Slack readback are recorded privately; do not infer a send from these
+source notes alone. The unchanged team URL-directory entry needs readback only.
 
 ## Remaining uncertainty
 
@@ -77,7 +85,8 @@ Derek's standing asset permission covers this work; no further permission is nee
 
 ## Next action
 
-Publish and independently review the expanded Derek menu, correct any supported
-finding, verify its live revision, deliver the updated library and update the
-existing final Slack message. Keep current URL-directory entries; all three URLs
-are unchanged. Record final evidence privately and retain only needed artifacts.
+The reviewed product work is complete. The coordinator inspects the final private
+delivery receipts and accepts the two scoped handoffs separately. Preserve the
+normal workflow milestones and accepted reviews; do not replay them. All three
+short URLs are unchanged. Keep originals/provenance, the current library package,
+source and review evidence for maintenance and delivery audit.

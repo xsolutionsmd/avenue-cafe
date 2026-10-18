@@ -38,3 +38,10 @@ Only crop, size and format optimization was applied; no synthetic or retouched
 food. WebP variants preserve the chosen 4:3 or square composition, with intrinsic
 width/height, lazy loading and responsive sources. Square photos keep their actual
 ratio. Existing standing business-asset permission applies.
+
+The published application at `63d042f9687766f422f30166a9c887cbf242eb0c`
+passed independent 54/54 focused cases and 8/8 fresh rechecks with no findings.
+All ten label/crop associations were inspected at desktop and phone sizes;
+the final compact identity consistency check found no mismatches. The current
+private index records 85 rendered rows and these ten photo/hash associations;
+the earlier two-photo live observation is retained as dated history.

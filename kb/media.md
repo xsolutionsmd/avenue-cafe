@@ -71,12 +71,28 @@ Do not ask again per file/source/environment or treat old reference-only/public-
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
 
-## Menu coverage and branch use
+## Current menu coverage and branch boundary
 
-All 17 originals are hash-verified: 15 authentic cafe files and two retained wrong-business exclusion references. The private index contains 85 sourced entries, ten supported photo associations (three confirmed, seven likely), and 75 explicit gaps. Nine selected food originals represent eight scenes. The chicken roll is shared by two reasonable variants; the plain-fries photo is an alternate view of that meal. See [per-entry confidence and crops](menu-photo-variation.md).
+All 17 original hashes were verified: 15 authentic cafe files and two excluded
+wrong-business cocktail-menu references (ec0af066c181 and c9b1b582bd7b). Never use
+the exclusions as Avenue Cafe imagery or offerings. Seven new authentic food
+originals came from Maps (five) and Yelp (two).
 
-Main and Abdul retain the reference's text-only menu. Home/Visit use the accepted BLT/entrance photos. Only Derek's expanded menu uses the selected food derivatives; private selection paths do not authorize merging them into other branches. The full rendered count and optimized crop review accompany its independent live acceptance. Historical photographs do not establish current portions or availability.
+The accepted Derek application at `63d042f9687766f422f30166a9c887cbf242eb0c`
+illustrates 10 of 85 entries with nine original files/eight food scenes: three
+confirmed, seven likely, and 75 explicit gaps. See [the mapping](menu-photo-variation.md).
+The shared chicken photo supports two reasonable variants; the fries original is
+another view of that meal. Historical photos do not prove current portions.
+Main/Abdul retain zero menu photos; Home BLT/entrance imagery is unchanged.
 
-The full exposed Maps gallery and all 12 Yelp images were inspected. Restaurantji exposed 26 of its advertised 27 images: duplicates, wrong-Bethesda foods and nonfood/menu sources; one image remains unexposed. No additional unique Towson food photo was found there. The prior unavailable/partial source-family limits remain recorded. Do not claim exhaustive historical review attachments or complete item-photo coverage.
+Maps' exposed 7 Food and 15 All entries and all 12 Yelp photos were inspected.
+Restaurantji exposed 26 of 27 advertised images; one remained unexposed. Duplicates
+and wrong-Bethesda foods yielded no additional unique Towson food. Coverage
+statuses describe those actual exposed galleries, not all historical uploads.
+The nine required source-family checks are in the table above; unavailable and
+partial limits remain explicit.
 
-The retained ec0af066c181 and c9b1b582bd7b cocktail-menu images belong to Avenue Kitchen & Bar, not this cafe; do not reuse. Restaurantji's Bethesda Facebook foods are also excluded. The old 10-file Slack package is a historical delivery; the expanded library requires a new verified package after final acceptance.
+The expanded package contains all 17 originals, manifest, source coverage, the
+current 85-row index, derived CSV and gallery. The earlier 10-file package and
+its delivery receipt remain dated history. Current Slack delivery/readback and
+package SHA/size are retained privately, separate from this public source record.
