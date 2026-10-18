@@ -1,0 +1,166 @@
+{
+  "schema": 2,
+  "toolkit": "xs-website 2.0 (2026-10-17)",
+  "name": "Avenue Cafe",
+  "slug": "avenue-cafe",
+  "created": "2026-10-18T14:28:41.377413+00:00",
+  "repository": "xsolutionsmd/avenue-cafe",
+  "visibility": "public",
+  "url_key": "avenuecafe",
+  "build_type": "landing",
+  "features": [],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Avenue Cafe",
+    "address": "409 Washington Ave, Suite LL5, Towson, MD 21204",
+    "public_phone": "410-296-8300",
+    "public_email": null,
+    "website": null,
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Avenue%20Cafe%20409%20Washington%20Ave%2C%20Towson%2C%20MD%2021204",
+    "social": {},
+    "evidence": [
+      {
+        "observed": "2026-10-18T14:29:12.209372+00:00",
+        "note": "Towson Main Street restaurant listing identifies the cafe and offerings; Baltimore County 2025 food-facility register independently matches Avenue Cafe at 409 Washington Ave; Restaurantguru and Zmenu match phone 410-296-8300 and street address. Suite LL5 is supplied lead/Maps evidence pending direct inspection."
+      },
+      {
+        "observed": "2026-10-18T14:29:20.840892+00:00",
+        "note": "Independent phone/address corroboration: https://www.zmenu.com/avenue-cafe-towson-online-menu/ displays Avenue Cafe, 409 Washington Ave Towson MD 21204, (410) 296-8300; matches supplied lead and Restaurantguru listing."
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "avenuecafe.xsolutionsmd.com",
+      "slug": "avenue-cafe"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "d-avenuecafe.xsolutionsmd.com",
+      "slug": "avenue-cafe-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "a-avenuecafe.xsolutionsmd.com",
+      "slug": "avenue-cafe-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "done",
+      "recorded": "2026-10-18T14:49:10.361838+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Sourced KB complete; independent identity, current July 2026 wall-menu photo, full 85-entry menu transcription, unsupported prices/hours and cross-business listing contamination explicitly excluded."
+      ]
+    },
+    "assets": {
+      "status": "done",
+      "recorded": "2026-10-18T14:49:10.557245+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Af045c913-44f9-4784-afdc-7366d78627c2%3Adelegate-task%3Aavenue-cafe-assets-r1-20261018",
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Accepted inspected real entrance, BLT and chicken/fries scenes, 10 verified originals, 85-entry menu/photo index and truthful nine-source coverage; assets-r1.md. Wrong-business menus excluded; current receipt is bounded source coverage, not exhaustive photo completeness."
+      ]
+    },
+    "spec": {
+      "status": "done",
+      "recorded": "2026-10-18T14:49:10.929275+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "research": "2026-10-18T14:49:10.361838+00:00",
+        "assets": "2026-10-18T14:49:10.557245+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Landing/no custom platform; three separate pages, full supported menu, real call and Maps links; kb/features.md. Scope chosen before reference search."
+      ]
+    },
+    "template": {
+      "status": "done",
+      "recorded": "2026-10-18T14:49:11.111771+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "spec": "2026-10-18T14:49:10.929275+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "https://www.cafececilia.com/index inspected landing, Menus and Info at desktop 1440x900 and phone 390x844; four selection captures; deliberate separate-page and mobile usability adaptations in design-brief; text-only reference menu."
+      ]
+    },
+    "content": {
+      "status": "pending"
+    },
+    "reconstruct": {
+      "status": "pending"
+    },
+    "backend": {
+      "status": "pending"
+    },
+    "refine": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "first-publish": {
+      "status": "pending"
+    },
+    "first-live-slack": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "fixes": {
+      "status": "pending"
+    },
+    "recheck": {
+      "status": "pending"
+    },
+    "deploy": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "final-handoff": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-18T14:49:11.119653+00:00"
+}
