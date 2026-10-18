@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T16:09:25.065475+00:00):
+Pipeline status (generated 2026-10-18T16:30:52.605427+00:00):
 
 - **identity**: done
 - **research**: done
@@ -15,18 +15,18 @@ Pipeline status (generated 2026-10-18T16:09:25.065475+00:00):
 - **build**: done
 - **first-publish**: done
 - **first-live-slack**: done
-- **infra**: todo: record verified infra evidence
-- **review**: todo: blocked by infra
+- **infra**: done
+- **review**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
 - **fixes**: todo: blocked by review
 - **recheck**: todo: blocked by fixes
 - **deploy**: todo: blocked by recheck
 - **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by infra, review, fixes, recheck, deploy, delivery
+- **final-handoff**: todo: blocked by review, fixes, recheck, deploy, delivery
 <!-- xs-status:end -->
 
 ## Current state
 
-Landing/full, server-first. October18,2026: production is live at https://avenuecafe.xsolutionsmd.com, revision `07c928acf7cc4b41ab6db1eb8bc5ec35dcb3cb19`. First-live delivery is verified; full infrastructure, both previews, independent live review and final delivery are next.
+Landing/full, server-first. October18,2026: production and both personal previews are live at revision `cef15d458dab0f6ead684b6f4f0388334537c1f8`. First-live delivery and full infrastructure are accepted. Independent live review, final delivery and the Derek-only menu-photo variation remain.
 
 ## Coordinator checkpoint
 
@@ -38,7 +38,7 @@ Reconstruction and static runtime accepted. Claude returned API quota unavailabi
 
 ## Next step
 
-Sol6.1 Extra High completes GitHub, three branches/protections/Actions/public packages and independent production/Derek/Abdul environments without replacing the working site. Coordinator accepts its evidence, then a fresh independent Sol High task reviews every live page and interaction. Final Sol handoff/media delivery and Derek-only menu-photo variation remain required. First live is only a milestone.
+A fresh independent Sol6.1 High task is reviewing the actual live desktop/mobile pages and interactions. Infrastructure is accepted: public repository, protected main, three branch-bound environments, six successful push workflows, public packages, healthy independent stacks and exact live revisions. Application/runtime parity with07c928a is verified. Coordinator accepts review evidence and handles any fixes before final Sol verification/media/Slack handoff. The shared Website URLs directory already lists all three verified URLs as review pending; final status updates require serialized writer ownership from the batch dispatcher. First live is only a milestone.
 
 ## Blockers / waiting on
 
