@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T16:09:25.065475+00:00):
+Pipeline status (generated 2026-10-18T17:21:58.925584+00:00):
 
 - **identity**: done
 - **research**: done
@@ -15,18 +15,18 @@ Pipeline status (generated 2026-10-18T16:09:25.065475+00:00):
 - **build**: done
 - **first-publish**: done
 - **first-live-slack**: done
-- **infra**: todo: record verified infra evidence
-- **review**: todo: blocked by infra
-- **fixes**: todo: blocked by review
-- **recheck**: todo: blocked by fixes
-- **deploy**: todo: blocked by recheck
-- **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by infra, review, fixes, recheck, deploy, delivery
+- **infra**: done
+- **review**: done
+- **fixes**: done
+- **recheck**: done
+- **deploy**: done
+- **delivery**: done
+- **final-handoff**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
 <!-- xs-status:end -->
 
 ## Current state
 
-Landing/full, server-first. October18,2026: production is live at https://avenuecafe.xsolutionsmd.com, revision `07c928acf7cc4b41ab6db1eb8bc5ec35dcb3cb19`. First-live delivery is verified; full infrastructure, both previews, independent live review and final delivery are next.
+Landing/full, server-first. October 18, 2026: production and both personal previews serve the accepted application reviewed at `cef15d458dab0f6ead684b6f4f0388334537c1f8`. Infrastructure, independent live review and focused recheck are accepted. Normal media and final URL delivery are complete. This publication updates handoff records only; each final branch/live revision and application/runtime/configuration parity are recorded separately after publication. Coordinator acceptance of the normal handoff precedes the remaining Derek-only menu-photo variation.
 
 ## Coordinator checkpoint
 
@@ -38,7 +38,13 @@ Reconstruction and static runtime accepted. Claude returned API quota unavailabi
 
 ## Next step
 
-Sol6.1 Extra High completes GitHub, three branches/protections/Actions/public packages and independent production/Derek/Abdul environments without replacing the working site. Coordinator accepts its evidence, then a fresh independent Sol High task reviews every live page and interaction. Final Sol handoff/media delivery and Derek-only menu-photo variation remain required. First live is only a milestone.
+Coordinator inspects the final verification/delivery receipts and accepts the normal handoff. Then implement and review the small menu-photo variation on `derek-dev` only. Do not merge it into production or Abdul's branch. All three normal menus remain text-only at this handoff; real BLT and entrance photos are used on the surrounding pages.
+
+Independent recheck passed 22/22 actual live cases, including directly observed reduced motion, keyboard/pointer navigation, disclosures and category jumps; findings are empty. Final checks confirm Home/Menu/Visit, phone and Maps identity, real media and the text-only menu. A brief Derek preview 502 recovered without mutation; successful fresh checks and the original failure remain in private evidence. Final verification runs again after the last documentation push.
+
+The unchanged media ZIP was delivered once to Abdul with final production/Derek/Abdul links, repository link, review result and remaining factual/photo gaps, in the original first-live thread. Persisted message and file-card readback, exact package hash and the structured final URL receipt are kept in the private delivery records. The existing Website URLs formatted message was reloaded and its matching Avenue links reused without editing other companies. Keep internal delivery identifiers and cross-client directories out of this public repository.
+
+The media library has 10 image files: 8 authentic cafe files and 2 excluded wrong-business references marked no-reuse. Two food scenes map to 3 menu entries (2 confirmed, 1 likely), with 82 explicit photo gaps. BLT identity and the displayed full 4:3 crop are confirmed; entrance door and cafe lettering remain visible. The chicken/fries scene supports likely grilled chicken and confirmed fries, never an unsupported cheesesteak label. Preserve provenance and historical-photo limits.
 
 ## Blockers / waiting on
 
