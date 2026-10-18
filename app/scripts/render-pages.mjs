@@ -24,6 +24,11 @@ function shell(page, title, description, content) {
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://avenuecafe.xsolutionsmd.com${page}">
+  <meta property="og:image" content="https://avenuecafe.xsolutionsmd.com/images/avenue-blt-1280.webp">
+  <meta property="og:image:alt" content="Avenue Cafe’s BLT on toasted bread, with a pickle spear.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://avenuecafe.xsolutionsmd.com${page}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preload" href="/fonts/eb-garamond-regular.ttf" as="font" type="font/ttf" crossorigin>
   <title>${title}</title>
@@ -31,7 +36,7 @@ function shell(page, title, description, content) {
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="wordmark" href="/" aria-label="Avenue Cafe home">Avenue<br><span>Cafe</span></a>
-    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Explore <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span>Explore</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation"><ul>${nav.map(([href,label]) => `<li><a href="${href}"${page === href ? ' aria-current="page"' : ''}>${label}</a></li>`).join('')}</ul><a class="nav-call" href="tel:+14102968300">Call the cafe</a></nav>
     <div class="sidebar-address">409 Washington Ave<br>Towson, Maryland</div>
   </header>
